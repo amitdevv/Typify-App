@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   font-family: "fira code light";
-  background-color: #333333;
+  background-color: #000000; /* Black background */
 }
 
 .container {
@@ -20,8 +20,8 @@
   padding: 30px;
   border-radius: 10px;
   box-sizing: border-box;
-  border: 1px solid #ced4da;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+  border: 1px solid #ffffff; /* White border */
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.25); /* Light white shadow */
 }
 
 .test {
@@ -38,10 +38,10 @@ span {
   font-size: 20px;
   user-select: none;
   cursor: text;
-  color: #797b7d;
+  color: #ffffff; /* White text */
 }
 
-span.active{
+span.active {
   border-bottom: 3px solid orange;
 }
 
@@ -52,7 +52,7 @@ span.active{
 .char.correct {
   color: #ffffff; /* White text for correct letters */
 }
-  
+
 .char.wrong {
   color: #ff6347; /* Red text for wrong letters */
 }
@@ -61,30 +61,29 @@ span.active{
   color: #ffd54f; /* Yellow for the active character */
 }
 
-
 .result {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 15px;
-  color: #e2b714;
+  color: #ffffff; /* White text */
   padding-top: 10px;
-  border-top: 2px solid rgb(106, 106, 104);
+  border-top: 2px solid #ffffff; /* White border */
 }
 
 button.btn {
   padding: 8px;
   outline: none;
-  border: 1px solid #ced4da;
+  border: 1px solid #ffffff; /* White border */
   border-radius: 4px;
   cursor: pointer;
-  color: #797b7d;
+  color: #ffffff; /* White text */
   font-size: 15px;
-  background-color: #333333;
+  background-color: #000000; /* Black button */
   font-weight: bold;
   transition: all 0.5s;
 }
 
 button.btn:hover {
-  background-color: #474646;
+  background-color: #222222; /* Darker black on hover */
 }

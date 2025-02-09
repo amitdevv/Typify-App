@@ -39,6 +39,7 @@ span {
   user-select: none;
   cursor: text;
   color: #ffffff; /* White text */
+  font-weight: 300; /* Lighter font weight */
 }
 
 span.active {
@@ -47,10 +48,11 @@ span.active {
 
 .char {
   font-size: 24px;
+  font-weight: 300; /* Lighter font weight */
 }
 
 .char.correct {
-  color: #ffffff; /* White text for correct letters */
+  color: #6aff6a; /* Greenish color for correct letters */
 }
 
 .char.wrong {
